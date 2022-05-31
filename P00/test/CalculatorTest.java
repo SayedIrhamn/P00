@@ -38,6 +38,7 @@ public class CalculatorTest {
 		assertEquals(expected, actual);
 				
 	}
+	@Test
 	public void testAddZero () {
 		int a = 1234; 
 		int b = 0 ; 
@@ -47,6 +48,7 @@ public class CalculatorTest {
 		
 		assertEquals(expected,actual);
 	}
+	@Test
 	public void testSubtract() {
 		int a = 5; 
 		int b = 3;
@@ -55,6 +57,7 @@ public class CalculatorTest {
 		int expected = 2 ;
 		assertEquals(expected ,actual );
 	}
+	@Test
 	public void testMultiple() {
 		int a = 5;
 		int b = 10 ;
@@ -63,6 +66,7 @@ public class CalculatorTest {
 		int expected = 50;
 		assertEquals(expected,actual );
 	}
+	@Test
 	public void testDevide() {
 		int a = 10 ; 
 		int b = 5 ;
